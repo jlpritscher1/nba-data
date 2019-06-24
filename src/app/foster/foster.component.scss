@@ -1,0 +1,196 @@
+.background{
+    background-color: #17408B;
+ 
+    .page{
+         width: 70vw;
+         padding: 15px;
+         margin-left: 15vw;
+         background-color: white;
+
+         .heading{
+            .page-title{
+                text-align: center;
+                text-emphasis: bold;
+            }
+
+             p{
+                 font-size: 18px;
+                 text-indent: 5%;
+
+                 span{
+                     font-style: italic;
+                 }
+             }
+
+             ul{
+                color: #17408B;
+
+                li{
+                    padding: 2px;
+
+                    a{
+                        color: #C9082A;
+                    }
+                    a:hover{
+                        color: #17408B;
+                    }
+                }
+             }
+         }
+
+         .start{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p{  
+                padding-right: 15px;
+                font-size: 18px;
+                margin-right: 5%;
+                text-indent: 5%;
+
+                span{
+                    font-style: italic;
+                }
+            }
+
+            .side{
+                h5{
+                    text-align: center;
+                }
+
+                img {
+                    transition: all .5s;
+                }
+
+                img:hover{
+                    cursor: pointer;
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+
+                }
+            }
+
+         }
+
+         .sf_df{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+             p{
+                 font-size: 18px;
+                 text-indent: 5%;
+
+                 span{
+                     font-style: italic;
+                 }
+             }
+
+             .directions{
+                 font-size: 24px;
+                 text-indent: 0%;
+             }
+
+         }
+
+         .mean{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .right{
+                border-right: 3px solid #C9082A;
+                padding-right: 10px;
+            }
+        }
+        
+        .avgs{
+            p{
+                font-size: 18px;
+                text-indent: 5%;
+            }   
+        }
+
+        .top5{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p{
+                font-size: 18px;
+                text-indent: 5%;
+                padding-right: 15px;
+                padding: 10px;
+                border: 2px solid #C9082A;
+                border-radius: 10px;
+                margin-right: 20px;
+            }
+        }
+
+        .other4{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p{
+                font-size: 18px;
+                padding-left: 25px;
+                padding: 10px;
+                border: 2px solid #C9082A;
+                border-radius: 10px;
+                margin-left: 20px;
+            }
+        }
+
+        .others-avgs{
+            p{
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .two-images{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+
+                img{
+                    border: 2px solid #17408B;
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin-bottom: 20px
+                }
+            }
+        }
+
+        .summary{
+            p{
+                font-size: 18px;
+                text-indent: 5%;
+            }
+
+            h3{
+                text-align: center;
+            }
+        }
+
+        .navigate{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+
+            a{
+                color: #C9082A;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            a:hover{
+                color: #17408B;
+            }
+        } 
+
+    }
+} 

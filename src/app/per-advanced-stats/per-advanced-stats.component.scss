@@ -1,0 +1,47 @@
+.background{   
+    background-color: #17408B;
+
+   .page{
+        width: 70vw;
+        margin-left: 15vw;
+        padding: 15px;
+        background-color: #FFFFFF;
+
+        .heading{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            h2{
+                text-align: center;
+                }
+
+            p{
+                text-indent: 5%;
+                font-size: 18px;
+                width: 90%;
+            }
+
+            img{
+                margin-bottom: 10%;
+                padding: 5px;
+                border: 3px solid #17408B
+            }
+        }
+
+        .navigate{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            a{
+                color: #C9082A;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            a:hover{
+                color: #17408B;
+            }
+        }
+   }
+}

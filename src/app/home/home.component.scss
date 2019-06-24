@@ -1,0 +1,207 @@
+.welcome{ 
+    background-image: url('../../assets/images/analytics.jpg');
+    margin: 0;
+    width: 100%;
+
+  .intro{
+        width: 70%;
+        margin-left: 15%;
+        border: 3px solid #FFFFFF;
+        padding: 5px;
+        padding-right: 19px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+
+        h2{
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        p{
+            text-indent: 5%;
+            font-size: 18px;
+            color: #FFFFFF;
+            width: 90%;
+
+            a{
+                color: #FFFFFF
+            }
+            a:hover{
+                color: #17408B;
+            }
+        }
+
+        .overview{
+            text-align: center;
+            color: #FFFFFF;
+            font-size: 20px;
+            text-indent: 5%;
+        }
+        
+    }
+
+    .image{
+        padding-top: 15px;
+        
+        img{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 22vw;
+        margin-left: 2vw;
+        padding-bottom: 5px;
+        }
+    }
+
+    .links{
+        color: #FFFFFF;
+        width: 33vw;
+        margin-top: 0;
+        margin-right: 40%;
+        margin-left: 2vw;
+        text-indent: 5%;
+
+        ul{
+            margin: 0%;
+
+            h3{
+                text-indent: 25%;
+            }
+
+            li{
+                padding-bottom: 15px;
+
+                a{
+                    color: #FFFFFF;
+                    font-size: 20px;
+                }
+                a:hover{
+                    color: #17408B;
+                }
+            }
+        }
+    }
+}
+
+.background{
+    background-color: #17408B;
+ 
+    .page{
+        width: 70%;
+        margin-left: 15%;
+        background-color: #FFFFFF;
+        padding: 15px;
+
+        h1{
+            text-align: center;
+        }
+
+        p{
+            text-indent: 5%;
+            font-size: 18px;
+
+            a{
+                color: #C9082A;
+            }
+            a:hover{
+                color: #17408B;
+            }
+        }
+
+        .jupyter{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .imports{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                p{
+                  text-indent: 5%;  
+                }
+            }
+
+            .page-title{
+                text-align: center;
+            }
+
+            p{
+                font-size: 18px;
+            }
+
+            .shape{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+
+                .frame-shape{
+                    width: 80%;
+                    padding-right: 5px;
+                    margin: 0;
+                    padding-top: 25px;
+                    text-indent: 5%;
+
+                    span{
+                        font-style: italic;
+                    }
+                }
+                .shape-img{
+                    padding: 5px;
+                    border: 2px solid red;
+                    border-radius: 10px;
+                }
+                
+            }
+            .large{
+                margin: 0px;
+            }
+
+            .output{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                text-indent: 5%;
+
+                .explain-groupby{
+                    padding-right: 10px;
+                }
+            }
+        }
+
+
+        .example1{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            p{
+                text-indent: 5%;
+            }
+        }
+
+        .basics{
+            text-indent: 4%;
+            text-align: center;
+            width: 90%;
+        }
+
+        .navigate{
+            display: flex;
+            padding-top: 25px;
+            padding-left: 80%;
+
+            a{
+                color: #C9082A;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            a:hover{
+                color: #17408B;
+            }
+        }
+    }
+}

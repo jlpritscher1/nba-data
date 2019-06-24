@@ -1,0 +1,129 @@
+.background{
+   background-color: #17408B;
+
+   .page{
+        width: 70vw;
+        padding: 15px;
+        margin-left: 15vw;
+        background-color: #FFFFFF;
+    
+        .point-leaders{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .page-title{
+                text-align: center;
+                text-emphasis: bold;
+            }
+
+            p{
+                font-size: 18px;
+                text-indent: 5%;
+
+                span{
+                    font-style: italic;
+                }
+            }
+
+            
+        }
+
+        .columns{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .check-columns{
+                font-size: 20px;
+                padding-right: 25px;
+                text-align: center;
+                padding: 10px;
+                border: 2px solid #C9082A;
+                border-radius: 10px;
+
+                span{
+                    font-style: italic;
+                }
+            }
+        }
+
+        .matplotlib{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+            h3{
+                text-align: center;
+            }
+
+            p{
+                font-size: 18px;
+                text-indent: 5%;
+            }
+        }
+
+        .map{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p{
+                font-size: 18px;
+                text-indent: 5%;
+            }
+        }
+
+        .detailed{
+            p{
+                font-size: 18px;
+                text-indent: 5%;
+            }
+        }
+
+        .chart{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .explanation{
+            p{
+                font-size: 18px;
+                text-indent: 5%;
+            }
+            
+
+        }
+
+        .summary{
+            .move-on{
+                font-size: 18px;
+                text-indent: 5%;
+            }
+            
+
+            .italic{
+                font-size: 18px;
+                text-indent: 5%;
+                font-style: italic;
+            }
+        }
+
+        .navigate{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+
+            a{
+                color: #C9082A;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            a:hover{
+                color: #17408B;
+            }
+        }    
+    }
+}
