@@ -10,13 +10,13 @@ import { PerAdvancedStatsComponent } from './per-advanced-stats/per-advanced-sta
 
 const routes: Routes = [{
   path: '',
-  component: HomeComponent
+  component: HomeComponent,
 }, {
   path: 'basics',
-  component: BasicsComponent
+  component: BasicsComponent,
 }, {
   path:'per',
-  component: PerComponent
+  component: PerComponent,
 }, {
   path:'stat-leaders',
   component: StatLeadersComponent,

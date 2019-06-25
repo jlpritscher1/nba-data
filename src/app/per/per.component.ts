@@ -10,6 +10,7 @@ export class PerComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    window.scroll(0,0)
   }
 
 }
